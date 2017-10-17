@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 # command to install dependencies
-script:  py.test test/run_all_tests.py
+script:  pytest test/run_all_tests.py
 branches:
   only:
     - master
