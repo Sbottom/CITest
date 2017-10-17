@@ -6,3 +6,4 @@ script:  py.test test/run_all_tests.py
 branches:
   only:
     - master
+    - dev
